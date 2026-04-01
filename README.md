@@ -39,9 +39,9 @@ docker compose up
 ```
 
 ```
-├── stt-pz-3
+├── mqtt-pz
 │   ├── broker
-│   │   ├── <mqtt>.conf     # конфігурація MQTT (якщо застосовується)
+│   │   ├── mosquitto.conf     # конфігурація MQTT (якщо застосовується)
 │   │   ├── docker-compose.yml # варіант розгортання брокера
 │   ├── screenshots            # докази роботи Publish/Subscribe або Gateway routes
 │   ├── .editorconfig
