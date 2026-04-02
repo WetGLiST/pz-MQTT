@@ -3,7 +3,7 @@ version: '3'
 services:
   mosquitto:
     image: eclipse-mosquitto:2
-    container_name: mqtt-broker
+    container_name: mqtt-broker2
     ports:
       - "1885:1885"
       - "9003:9003"
